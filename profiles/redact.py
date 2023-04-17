@@ -1,6 +1,6 @@
 from aiogram.types.inline_keyboard import InlineKeyboardButton, InlineKeyboardMarkup
 from bson import ObjectId
-from keyboard.profile_kb import back_but
+from keyboardes.profile_kb import back_but
 
 
 async def redact_advice(message, coll):
